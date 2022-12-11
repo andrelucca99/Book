@@ -8,4 +8,4 @@ Stacks usadas:
   - CSS
   - JAVASCRIPT
   
-<img src="./assents/tela.gif" />
+<img src="./img/projeto.gif" />
