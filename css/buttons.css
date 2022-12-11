@@ -1,0 +1,21 @@
+button {
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    transition: transform 0.5s;
+    border-radius: 50%;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover i {
+    color: #3020C9;
+}
+
+i {
+    font-size: 50px;
+    color: #190F73;
+}

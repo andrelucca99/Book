@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@1,300&display=swap');
+
+/*Styles da capa*/
+@import url('./capa.css');
+@import url('./animacao_capa.css');
+
+/*Styles das pages*/
+@import url('./paginas.css');
+
+/*Controller Buttons*/
+@import url('./buttons.css');
+
+/*Book*/
+@import url('./book.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: #EBE9F7;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 1.5rem;
+    color: rgb(66, 65, 65);
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+img {
+    height: 280px;
+    width: 300px;
+    background: #ccc;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#img_capa {
+    height: 280px;
+    width: 300px;
+    background: #190F73;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+/*Paper stack order*/
+#p1 {
+    z-index: 7;
+}
+
+#p2 {
+    z-index: 6;
+}
+
+#p3 {
+    z-index: 5;
+}
+
+#p4 {
+    z-index: 4;
+}
+
+#p5 {
+    z-index: 3;
+}
+
+#p6 {
+    z-index: 2;
+}
+
+#p7 {
+    z-index: 1;
+}
